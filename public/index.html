@@ -7,7 +7,25 @@
 		<script src="./index.bundle.js" async></script>
 	</head>
 	<body>
-		<app-root> Loading... </app-root>
+		<style>
+			body {
+				width: 100vw;
+				height: 100vh;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				margin: 0;
+			}
+
+			@media screen and (max-width: 230px) {
+				body {
+					align-items: flex-start;
+					justify-content: flex-start;
+				}
+			}
+		</style>
+		<profile-card> Loading... </profile-card>
 		<noscript>Enable javascript to access this site.</noscript>
 	</body>
 </html>

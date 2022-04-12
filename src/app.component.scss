@@ -1,0 +1,16 @@
+@use "@material/card";
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+@include card.core-styles;
+
+.profile-card {
+	display: flex;
+	flex-direction: column;
+	min-width: 230px;
+	max-width: 520px;
+	width: 100%;
+	height: fit-content;
+	padding: 16px;
+	font-family: "Roboto Condensed", sans-serif;
+}
