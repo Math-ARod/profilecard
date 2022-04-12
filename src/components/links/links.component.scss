@@ -1,0 +1,21 @@
+#profile-card_icon-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+}
+
+.icon-itens{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+
+    a{
+        margin: 10px;
+
+        img{
+            max-width: 50px;
+        }
+    }
+}

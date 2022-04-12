@@ -1,0 +1,23 @@
+#profile-card_contacts-list{
+    list-style: none;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+;
+
+    li {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        :first-child{
+            margin-right: 10px;
+        }
+    }
+
+    :first-child {
+        margin-top: 0;
+    }
+} 

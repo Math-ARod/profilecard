@@ -1,0 +1,22 @@
+.profile-component-center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.profile-component_img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 256px;
+    min-width: 158px;
+}
+
+.profile-component_title{
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.profile-component_subtitle{
+    font-weight: lighter;
+    font-size: 1.25rem;
+    text-align: center;
+}
